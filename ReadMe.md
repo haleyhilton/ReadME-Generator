@@ -5,7 +5,7 @@
   
   <a name="Description"></a>
   ## Description
-  Stuff and things and what not
+  This project serves to create a quick and professional ReadME. By using node index.js the user is led through a series of prompts that they can be as detailed or vague as they wish in answering. Once they have entered the info, their answers are logged in a new ReadMe.md that they can further edit if they'd like. An example of when this would be applicable is if they'd like to include screenshots after the fact.
   # Table of Contents
 
  * [Description](#Description)
@@ -26,10 +26,12 @@
   npm i
   <a name="Usage-Information"></a>   
   ## Usage Information
-  Use node index.js and follow the prompts to generate the readME
+  Use node index.js and follow the prompts to generate the ReadMe
   <a name="Contribution-Guidelines"></a>    
   ## Contribution Guidelines
-  N/A 
+  N/A Have fun :) 
+  <a name="Screenshots"></a>    
+  ## Screenshots (if applicable)
   <a name="Questions"></a>
   ## Questions
   The author's preferred method of contact is: Email

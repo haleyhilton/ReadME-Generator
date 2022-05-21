@@ -38,6 +38,8 @@ function generateMarkdown(data) {
   <a name="Contribution-Guidelines"></a>    
   ## Contribution Guidelines
   ${data.contribution}
+  <a name="Screenshots"></a>    
+  ## Screenshots (if applicable)
   <a name="Questions"></a>
   ## Questions
   The author's preferred method of contact is: ${data.contact}\n
