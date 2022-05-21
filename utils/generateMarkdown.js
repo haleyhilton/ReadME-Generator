@@ -14,18 +14,18 @@
 function generateMarkdown(data) {
   return `# ${data.title}
 
-  ## License ![badge](https://badgen.net/badge/License/${data.license}/blue)
+  # License ![badge](https://badgen.net/badge/License/${data.license}/blue)
   This project is covered under the ${data.license} license. 
   
   <a name="Description"></a>
-  <h1>## Description
-  ${data.description}</h1>
-  # Table of Contents
- * [Description](#Description)
- * [Installation](#installation) 
- * [Usage](#usage)   
- * [Contributing](#contribution)
- * [Screenshots](#screenshots)
+  ## Description
+  ${data.description}
+  # Table of Contents\n
+ * [Description](#Description)\n
+ * [Installation](#installation) \n
+ * [Usage](#usage)   \n
+ * [Contributing](#contribution)\n
+ * [Screenshots](#screenshots)\n
  * [Contact](#contact)
       
       
@@ -40,8 +40,8 @@ function generateMarkdown(data) {
   ${data.contribution}
   <a name="Questions"></a>
   ## Questions
-  The author's preferred method of contact is: ${data.contact}
-  Github: [${data.author}](https://github.com/${data.username})
+  The author's preferred method of contact is: ${data.contact}\n
+  Github: [${data.author}](https://github.com/${data.username})\n
   Email me at: ${data.email}`;
     }
     
