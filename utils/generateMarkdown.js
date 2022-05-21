@@ -22,17 +22,17 @@ function generateMarkdown(data) {
   ${data.description}
   # Table of Contents\n
  * [Description](#Description)\n
- * [Installation](#installation) \n
+ * [Installation](#Installation-Instructions) \n
  * [Usage](#usage)   \n
- * [Contributing](#contribution)\n
+ * [Contributing](#Contribution-Guidelines)\n
  * [Screenshots](#screenshots)\n
- * [Contact](#contact)
+ * [Contact](#questions)
       
       
   <a name="Installation-Instructions"></a>   
   ## Installation Instructions
   ${data.installations}
-  <a name="Usage-Information"></a>   
+  <a name="Usage"></a>   
   ## Usage Information
   ${data.usage}
   <a name="Contribution-Guidelines"></a>    
