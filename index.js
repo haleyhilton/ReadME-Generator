@@ -23,6 +23,12 @@ const questions = () =>
             message: "What is your email address?",
         },
         {
+            type: "list",
+            name: "contact",
+            message: "What is your preferred method of contact?",
+            choices: ["Email", "LinkedIn"]
+        },
+        {
             type: "input",
             name: "title",
             message: "What is the project title?",

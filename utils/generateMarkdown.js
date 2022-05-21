@@ -25,7 +25,6 @@ function generateMarkdown(data) {
  * [Installation](#installation) 
  * [Usage](#usage)   
  * [Contributing](#contribution)
- * [Tests](#test)
  * [Screenshots](#screenshots)
  * [Contact](#contact)
       
@@ -39,12 +38,9 @@ function generateMarkdown(data) {
   <a name="Contribution-Guidelines"></a>    
   ## Contribution Guidelines
   ${data.contribution}
-  <a name="Test"></a>
-  ## Test
-  ${data.test}
   <a name="Questions"></a>
   ## Questions
-  ${data.contact}
+  The author's preferred method of contact is: ${data.contact}
   Github: [${data.author}](https://github.com/${data.username})
   Email me at: ${data.email}`;
     }
