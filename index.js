@@ -48,10 +48,15 @@ const questions = () =>
             name: "usage",
             message: "What does the user need to know about using the repo?",
         },
+        {
+            type: "input",
+            name: "contribution",
+            message: "What are your guidelines for others contributing to the project?",
+        },
     ])
 
 questions()
 .then((data) =>
-        fs.writeFile("./newReadMe.md", generateMarkdown(data),
+        fs.writeFile("./ReadMe.md", generateMarkdown(data),
         (err) =>
-            err ? console.error(err) : console.log('Commit logged!')))
+            err ? console.error(err) : console.log('Answers logged!')))

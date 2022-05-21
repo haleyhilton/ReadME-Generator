@@ -13,16 +13,19 @@
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
   ## License ![badge](https://badgen.net/badge/License/${data.license}/blue)
   This project is covered under the ${data.license} license. 
+  
   <a name="Description"></a>
-  ## Description
-  ${data.description}
+  <h1>## Description
+  ${data.description}</h1>
   # Table of Contents
  * [Description](#Description)
- * [Installation](#installation)    
- * [General Info](#general-information)
- * [Features](#features)
+ * [Installation](#installation) 
+ * [Usage](#usage)   
+ * [Contributing](#contribution)
+ * [Tests](#test)
  * [Screenshots](#screenshots)
  * [Contact](#contact)
       
