@@ -27,6 +27,8 @@
   <a name="Usage"></a>   
   ## Usage Information
   Use node index.js and follow the prompts to generate the ReadMe
+
+  Link showing functionality, usage and final deployment [here]: https://drive.google.com/file/d/1RhkMYYuFhRgCYAs1dSd29xAGFaVZh6IJ/view
   <a name="Contribution-Guidelines"></a>    
   ## Contribution Guidelines
   N/A Have Fun :)
